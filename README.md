@@ -5,6 +5,13 @@ A practical course subject gone wrong in the form of a stack based
 two-dimensional esoteric programming language. It was inspired from brainfuck,
 Befunge and PATH.
 
+Building and usage
+------------------
+
+Typing `make`in a terminal should do the trick to build the binary. The only dependency is the `ncurses`library for displaying the execution of the code.
+
+Typing `$ ./bin/interpreter` will display the usage. The `-d` option enable the ncurses-bases display of the executed code. A value in milliseconds for slowing down the execution (the default value is 200ms).
+
 Description
 -----------
 
